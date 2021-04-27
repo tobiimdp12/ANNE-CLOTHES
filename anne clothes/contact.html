@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="imagenes/iconoArriba.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+        <nav>
+            <div class="logo"><img src="imagenes/home1.jpg"></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galery.html">Galery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                   <a  href="#"class="btn"> <i class="fab fa-facebook"></i></a> 
+                   <a  href="#"class="btn"> <i class="fab fa-instagram"></i></a> 
+                   <a  href="#"class="btn"> <i class="fab fa-google"></i></a> 
+                  
+                 
+            
+                </span>
+            </ul>
+        </nav>
+
+        <div class="contact-title">
+<h1> Hi user</h1>
+<h2> write here you question....see you!</h2>
+        </div>
+
+        <div class="contact-form">
+                <form id="contact-form" method="post" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                <br>
+<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+<input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+        </div>
+
+
+    <script src="./app.js"></script>
+</body>
+<footer>ANNE</footer>
+</html>
